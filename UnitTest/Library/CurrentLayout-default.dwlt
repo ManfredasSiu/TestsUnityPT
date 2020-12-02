@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 115
-    y: 9
-    width: 321
-    height: 567
-  m_ShowMode: 0
-  m_Title: Test Runner
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -44,61 +20,11 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
   m_Title: Asset Store
-  m_RootView: {fileID: 5}
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 696}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 321
-    height: 567
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 321
-    height: 567
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 172
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,9 +37,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 8}
-  - {fileID: 7}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -126,7 +52,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,10 +74,10 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
-  - {fileID: 25}
-  m_MainToolbar: {fileID: 25}
+  - {fileID: 21}
+  m_MainToolbar: {fileID: 21}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,7 +98,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,8 +111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 14}
+  - {fileID: 6}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -194,10 +120,10 @@ MonoBehaviour:
     width: 1920
     height: 947
   m_MinSize: {x: 933, y: 646}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 92
---- !u!114 &9
+  controlID: 55
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,19 +136,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 7}
   - {fileID: 10}
-  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 658, y: 646}
+  m_MinSize: {x: 657, y: 646}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 93
---- !u!114 &10
+  controlID: 80
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,19 +161,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 12}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1531
     height: 572
-  m_MinSize: {x: 658, y: 375}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 657, y: 375}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 94
---- !u!114 &11
+  controlID: 81
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,14 +192,14 @@ MonoBehaviour:
     y: 0
     width: 378
     height: 572
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,15 +220,15 @@ MonoBehaviour:
     height: 572
   m_MinSize: {x: 457, y: 375}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
+  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 12}
   - {fileID: 16}
-  - {fileID: 20}
   m_Selected: 1
   m_LastSelected: 2
---- !u!114 &13
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,14 +249,14 @@ MonoBehaviour:
     height: 375
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 21}
-  - {fileID: 22}
-  - {fileID: 23}
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,447 +275,14 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 115
-    y: 9
-    width: 321
-    height: 546
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 270
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes:
-    - 357
-    - 119
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes:
-    - 32
-    - 32
-    maxSizes:
-    - 0
-    - 0
-    lastTotalSize: 476
-    splitSize: 6
-    xOffset: 0
-    m_Version: 1
-    oldRealSizes: 
-    oldMinSizes: 
-    oldMaxSizes: 
-    oldSplitSize: 0
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 15}
-    newResultList:
-    - id: 1003
-      uniqueId: '[UnitTest][suite]'
-      name: UnitTest
-      fullName: UnitTest
-      resultStatus: 1
-      duration: 0.677259
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1004
-      uniqueId: '[Tests.dll][suite]'
-      name: Tests.dll
-      fullName: C:/Users/manfr/Downloads/Stardew_prot/UnitTest/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 0.6393247
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[UnitTest][suite]'
-    - id: 1005
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 0.6327937
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: '[Tests.dll][suite]'
-    - id: 1001
-      uniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-      name: SceneManagerTests
-      fullName: Tests.SceneManagerTests
-      resultStatus: 1
-      duration: 0.6268633
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1006
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1002
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.CreateScene_IsNotNull]
-      name: CreateScene_IsNotNull
-      fullName: Tests.SceneManagerTests.CreateScene_IsNotNull
-      resultStatus: 1
-      duration: 0.0400595
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1003
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetActiveScene_AreEqual]
-      name: GetActiveScene_AreEqual
-      fullName: Tests.SceneManagerTests.GetActiveScene_AreEqual
-      resultStatus: 1
-      duration: 0.1145154
-      messages: 
-      output: 'Test: GetActive_AreEqual currently active scene before load: InitTestScene637425258947517240
-
-        Test:
-        GetActive_AreEqual currently active scene after load: TestSubjectScene
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1006
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneAt_IOORException]
-      name: GetSceneAt_IOORException
-      fullName: Tests.SceneManagerTests.GetSceneAt_IOORException
-      resultStatus: 1
-      duration: 0.0090392
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1005
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneAt_IsNotNull]
-      name: GetSceneAt_IsNotNull
-      fullName: Tests.SceneManagerTests.GetSceneAt_IsNotNull
-      resultStatus: 1
-      duration: 0.0552943
-      messages: 
-      output: 'Test: GetSceneAt_NotNull scene: TestScene5
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1010
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneByBuildIndex_AreEqual]
-      name: GetSceneByBuildIndex_AreEqual
-      fullName: Tests.SceneManagerTests.GetSceneByBuildIndex_AreEqual
-      resultStatus: 1
-      duration: 0.0830339
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1009
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneByBuildIndex_IsNull]
-      name: GetSceneByBuildIndex_IsNull
-      fullName: Tests.SceneManagerTests.GetSceneByBuildIndex_IsNull
-      resultStatus: 1
-      duration: 0.0009114
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1003
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneByName_AreEqual]
-      name: GetSceneByName_AreEqual
-      fullName: Tests.SceneManagerTests.GetSceneByName_AreEqual
-      resultStatus: 1
-      duration: 0.0528566
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1004
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneByName_IsNull]
-      name: GetSceneByName_IsNull
-      fullName: Tests.SceneManagerTests.GetSceneByName_IsNull
-      resultStatus: 1
-      duration: 0.0003726
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1004
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.GetSceneByPath_IsNotNull]
-      name: GetSceneByPath_IsNotNull
-      fullName: Tests.SceneManagerTests.GetSceneByPath_IsNotNull
-      resultStatus: 1
-      duration: 0.0095139
-      messages: 
-      output: 'Test: GetSceneByPath_IsNotNull scene: TestScene4
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1010
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.LoadSceneAsync_IsLoadedTrue]
-      name: LoadSceneAsync_IsLoadedTrue
-      fullName: Tests.SceneManagerTests.LoadSceneAsync_IsLoadedTrue
-      resultStatus: 1
-      duration: 0.0854095
-      messages: 
-      output: 'Test: LoadSceneAsync_IsLoadedTrue IsLoaded before load: False
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1004
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.SetActiveScene_isTrue]
-      name: SetActiveScene_isTrue
-      fullName: Tests.SceneManagerTests.SetActiveScene_isTrue
-      resultStatus: 1
-      duration: 0.081213
-      messages: 
-      output: 'There are 2 audio listeners in the scene. Please ensure there is always
-        exactly one audio listener in the scene.
-
-        There are 2 audio listeners
-        in the scene. Please ensure there is always exactly one audio listener in
-        the scene.
-
-        There are 2 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    - id: 1007
-      uniqueId: Tests.dll/Tests/SceneManagerTests/[Tests][Tests.SceneManagerTests.UnloadSceneAsync_IsLoadedFalse]
-      name: UnloadSceneAsync_IsLoadedFalse
-      fullName: Tests.SceneManagerTests.UnloadSceneAsync_IsLoadedFalse
-      resultStatus: 1
-      duration: 0.0544541
-      messages: 
-      output: 'Test: UnloadSceneAsync_IsLoadedFalse IsLoaded before unload: True
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.SceneManagerTests][suite]
-    m_ResultText: 'UnloadSceneAsync_IsLoadedFalse (0.054s)
-
-      ---
-
-      Test:
-      UnloadSceneAsync_IsLoadedFalse IsLoaded before unload: True'
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6ba2e983
-      m_LastClickedID: -2081840533
-      m_ExpandedIDs: 7e0b0cdce557abf78691943e8359db417dc7445effffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 15}
-    newResultList:
-    - id: 1000
-      uniqueId: '[UnitTest][suite]'
-      name: UnitTest
-      fullName: UnitTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7e0b0cdcffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
---- !u!114 &16
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -878,7 +371,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -908,7 +401,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f291ffff0c92ffff5893ffff5e93ffff7893ffffbc94ffffc495ffffde95ffff1897ffff7297ffff8c97ffffb098ffff0a99ffff2499ffff409affffee9affff089bffff1c9cffffca9cffffe49cffff009effff5a9effff749effff889fffffa89fffffc29fffffdea0ffff8ca1ffffa6a1ffffc2a2ffffcea2ffffe8a2fffff8a3fffffea3ffff18a4ffff34a5ffffe0a5fffffaa5ffff08a7ffff62a7ffff7ca7ffff8aa8ffffe4a8fffffea8ffff0caaffff12aaffff2caaffff3aabffff98abffffa2abffffbcabffffd8acffff34adffff4eadffff5caeffffb8aeffffd2aeffffeeafffff4ab0ffff64b0ffff72b1ffffceb1ffffe8b1ffff7ab2ffff82b2ffff9cb2ffffaab3ffff06b4ffff20b4ffff26b5ffffd6b5fffff0b5ffff04b7ffff60b7ffff7ab7ffff86b8ffffe2b8fffffcb8ffff00baffff5cbaffff76baffff7abbffff30bcffff4abcffff56bdffff5ebdffff78bdffff7cbeffff8abeffffa4beffff9ebfffffa6bfffffc0bfffffccc0ffff7ec1ffff98c1ffff96c2fffff8c2ffff12c3ffff08c4ffff64c4ffff7ec4ffff74c5ffffd6c5fffff0c5ffffeec6ffffb6c7ffffd0c7ffffbac8ffff16c9ffff30c9ffff22caffff84caffff9ecaffff88cbffffe4cbfffffecbffffe8ccffff44cdffff5ecdffff36ceffff92ceffffacceffff84cfffffe6cfffff00d0ffffd0d0ffff2cd1ffff46d1ffff16d2ffff78d2ffff92d2ffffb0d2ffffc0d2ffffdad2ffffacd3ffff0ed4ffff28d4ffff00d5ffff62d5ffff7cd5ffff4cd6ffffa8d6ffffc2d6ffff9ad7fffff6d7ffff10d8ffffe8d8ffff98d9ffffb2d9ffff8adaffffe6daffff00dbffffd8dbffff34dcffff4edcffff00ddffff5cddffff76ddffff20deffff82deffff9cdeffff6cdfffffc8dfffffe2dfffffbae0ffff1ce1ffff36e1ffff06e2ffff62e2ffff7ce2ffff44e3ffffa6e3ffffc0e3ffffdee3ffffc2e4ffffdce4ffff9ae5fffff6e5ffff10e6ffffe0e6ffff42e7ffff5ce7ffff24e8ffff2ce8ffff46e8ffff16e9ffff72e9ffff8ce9ffff5ceaffffb8eaffffd2eaffffa2ebfffffeebffff18ecffffdeecffff8eedffffa8edffff66eeffffc2eeffffdceeffff88efffff98efffffb2efffff5cf0ffffb6f0ffffd0f0fffff4f0fffffef0ffff18f1ffffbaf1ffff1ef2ffff38f2ffffecf2ffff50f3ffff6af3ffff1ef4ffff82f4ffff9cf4ffff48f5ffffb2f5ffffccf5ffff6ef6ffff2ef7ffff48f7ffffeef7ffff26fbffff
+      m_ExpandedIDs: e6f7ffff00f8ffff4af9ffff5af9ffff74f9ffffc8faffff60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -924,7 +417,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -932,7 +425,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 3e2de2c9349cd6947becdcbcff9b511c
---- !u!114 &18
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1048,7 +541,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1073,7 +566,7 @@ MonoBehaviour:
     width: 1151
     height: 551
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1134,7 +627,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1172,21 +665,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\manfr\Downloads\Stardew_prot\UnitTest
+  m_LastProjectPath: C:\Users\manfr\Downloads\Stardew_prot\UnitTestPT\UnitTest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 643f0000
-    m_LastClickedID: 16228
-    m_ExpandedIDs: 00000000623f0000643f000000ca9a3b
+    m_SelectedIDs: 24370000
+    m_LastClickedID: 14116
+    m_ExpandedIDs: 000000002437000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1214,7 +707,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000024370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1258,7 +751,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1270,7 +763,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1295,7 +788,7 @@ MonoBehaviour:
     width: 1530
     height: 354
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &23
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1323,7 +816,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 24834
---- !u!114 &24
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1361,7 +854,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &25
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
